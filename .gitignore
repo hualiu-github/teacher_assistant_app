@@ -5,3 +5,4 @@
 *.pyc
 /FE/node_modules/
 /FE/.npm-cache/
+/BE/app/data/storage/
