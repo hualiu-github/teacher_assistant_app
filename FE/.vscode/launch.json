@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: Main Process",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+      "args": ["."],
+      "env": { "NODE_ENV": "development" },
+      "outputCapture": "std"
+    },
+    {
+      "name": "Debug: Renderer (Chrome)",
+      "type": "chrome",
+      "request": "attach",
+      "port": 9222, // 确保你的主进程启动时开启了 remote-debugging-port: 9222
+      "urlFilter": "http://localhost:5173/*",
+      "webRoot": "${workspaceFolder}/src"
+    }
+  ],
+"http.proxyAuthorization": null,
+"http.proxy":"http://127.0.0.1:7897",
+"https.proxy":"http://127.0.0.1:7897",
+"http.proxyStrictSSL":false
+}

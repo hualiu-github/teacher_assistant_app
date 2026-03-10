@@ -1,0 +1,7 @@
+{
+  "storage_root": "D:\\AI_project\\teacher_assistant_app\\BE\\app\\data\\storage",
+  "openai_base_url": "",
+  "openai_api_key": "",
+  "asr_base_url": "wss://dashscope.aliyuncs.com/api-ws/v1/inference",
+  "asr_api_key": "sk-960d132f21cb4b59aaa1eee67227d99f"
+}

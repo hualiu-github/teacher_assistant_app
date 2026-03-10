@@ -1,0 +1,5 @@
+to_char(period_close_dt,'yyyy-mm-dd hh:mi:ss.ff3'),
+to_char(ods_insert_dt,'yyyy-mm-dd hh:mi:ss.ff3'),
+to_char(hfm_insert_dt,'yyyy-mm-dd hh:mi:ss.ff3'),
+to_char(create_time,'yyyy-mm-dd hh:mi:ss.ff3'),
+to_char(update_time,'yyyy-mm-dd hh:mi:ss.ff3')

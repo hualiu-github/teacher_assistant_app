@@ -1,0 +1,12 @@
+{
+    // "editor.fontSize": 15,
+   //"terminal.integrated.fontSize": 15,
+   "python.defaultInterpreterPath":"D:\\Python\\Python311\\python.exe",
+   "python.analysis.extraPaths": [
+   "D:\\AI_project\\teacher_assistant_app\\back"
+  ],    //和包加载相关
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.vscode-pylance"
+  },
+  "editor.guides.indentation": false
+}

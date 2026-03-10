@@ -1,0 +1,11 @@
+# ~/.codex/config.toml
+# 目标: 日常开发稳定、安全、可控
+
+# 默认模型(按你账户可用情况选择)
+model = "gpt-5.3-codex"
+# 审批策略: 更保守更安全(具体可选值以官方参考为准)
+approval_policy = "on-request"
+
+# 沙箱模式:只在工作区内写入(减少误操作范围)
+sandbox_mode = "workspace-write"
+
