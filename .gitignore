@@ -1,2 +1,6 @@
 /BE/.venv311/
+/BE/tools/**/*.exe
+*.wav
+*.m4a
 /FE/node_modules/
+/FE/.npm-cache/
